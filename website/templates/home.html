@@ -2,5 +2,11 @@
 
 {% block content %}
 <h1>This is Home page</h1>
+{% if boolean == True %}
 {{ text }}
+{% elif boolean == False %}
+Ki bolbo tomake, lojja laage amake
+{% else %}
+Hihihihi
+{% endif %}
 {% endblock %}
